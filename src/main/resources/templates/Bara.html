@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+    <title>Recipe Book</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Recipe Book</h1>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/">Recipe Book</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery">Gallery </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/bara">Bara<span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/croque">Croque Madame</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/golabjamun">Golab Jamun</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/injera">Injera</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/jerkchicken">Jerk Chicken</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/jerkchicken">Pumpkin Rice Noodles</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+        <h1 class="text-center">Bara</h1>
+
+        <img class="centeredimage" src="/Images/bara.jpg" width="400" height="300"/>
+            <br />
+            <br />
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <h4>Ingredients</h4>
+                        <ul>
+                            <li>1 cup black lentils</li>
+                            <li>1 cup moong lentils</li>
+                            <li>2 eggs, beaten</li>
+                            <li>1⁄2 lb lean ground chicken (Or lamb/pork/minced vegetables)</li>
+                            <li>1 tablespoon garlic, minced</li>
+                            <li>1 tablespoon ginger, minced</li>
+                            <li>3 green chilies, minced</li>
+                            <li>1⁄2 teaspoon turmeric</li>
+                            <li>1⁄4 teaspoon asafoetida powder</li>
+                            <li>Salt and pepper</li>
+                            <li>2 tablespoons oil (for mixture)</li>
+                            <li>1/2 cup oil (for cooking)</li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <p>Country: Nepal</p>
+                        <img src="/Images/nepalflag.png" width="150" height="150"/>
+                        <p>Servings: 4</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <h4>Directions</h4>
+                        <span>In a large bowl, soak the lentils overnight. Next day, rinse the soaked lentils thoroughly. If no outer skin of the lentils is desired, you can rub the soaked lentils between your palms and the outer skin will wash off. <br />
+            Transfer the washed lentils to a large blender, add a small amount of water, and blend it into a thick paste. <br />
+            Transfer the lentil mixture to a large mixing bowl. Add the oil, minced garlic, ginger and green chilies. Add turmeric, asafoetida, and salt and pepper. Add the beaten eggs and ground meat. Combine the lentil mixture thoroughly. At this point, it is better to store the lentil mixture in the refrigerator for a couple of hours to allow for the flavours to fuse. <br />
+            For cooking, heat 2 tablespoons of cooking oil in a non-stick, thick-bottomed pan or tawa under medium heat. Pour a half cup of the lentil mixture onto the pan and gently spread the mixture into the shape of a mini-pancake. Repeat with other patties, ensuring to not overcrowd the pan so that you can turn over the patties more easily.<br />
+
+            Cook the patties on one side until the edges have crisped up and the patties themselves have attained a golden brown colour. Turn the patties over onto the other side and cook until the patties have cooked and are golden brown. You can use paper towel to remove any excess oil if required. <br />
+
+            Transfer to a serving dish and serve hot with mango chutney or any other condiment. <br />
+            It is also common to add an egg topping or a minced meat topping or whatever toppings you desire. <br />
+            For convenience, an alternative to cooking your baras in a pan is using a waffle machine. For this, heat up your waffle machine and using oil spray coat the top and bottom surfaces. Pour a half cup of the lentil mixture on the bottom surface, gently spread out the mixture, and close the lid to cook. Cook until the lentil patty is cooked and has attained a golden brown colour, approximately 5-7 minutes. Baking is another healthy way to cook baras.
+            </span>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+
+</html>
